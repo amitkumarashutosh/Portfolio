@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+
+/*reset */
 *{
     margin: 0;
     padding: 0;
@@ -16,23 +18,21 @@
 body{
     font-family: 'Open Sans', sans-serif;
     max-width: 70%;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
+    line-height: 2; 
 }
 
 
-/* reset */
+/* tags */
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
 }
-.text-cen{
-    text-align: center;
-}
-/* navbar */
 
+
+/* navbar and header*/
 .container{
     background-color: var(--primary-color);
     display: flex;
@@ -61,69 +61,58 @@ li{
     color: aliceblue;
 }
 
+
+
 /* section */
-.main-content{
+.section-info{
     display: flex;
     padding: 1.5rem;
 }
-.main-content .info{
+.section-heading{
     text-align: center;
-    margin: auto;
+    padding: 1rem;
 }
-.main-content img{
+.section-info img{
     width: 50%;
 }
-.main-content .info h1{
+.section-heading h1{
     font-weight: bold;
     font-size: 2.5rem;
     color: var(--light-color)
 }
-.main-content .info #highlight{
+.section-heading #highlight{
     color: var(--primary-color)
 }
 
 
-/* projects section and tech stack*/
-.spacing{
-    line-height: 1.7;
-}
-.section-containe-light{
-    padding: 1rem;
+/* light and dark box */
+.light-box{
+    padding: 2rem 0;
+    text-align: center;
 }
 
-.section-containe-dark{
+.dark-box{
     background-color: var(--deem-light-color);
-    padding: 1rem;
+    padding: 2rem 0;
     border-radius: 10px;
-}
-.breif-info{
-   margin: 2rem 0;
-   padding: 2rem;
-}
-.breif-info h1{
-    padding-bottom: 10px;
-    font-size: 2rem;
-}
-#tech-stack{
-    font-weight: bold;
+    text-align: center;
 }
 
-/* projects */
-
-.btn{
-    margin-top: 1rem;
+/*dark button and light button*/
+.btn-dark{
+    margin: 1rem .5rem;
     border:none;
     color:white;
     background-color: var(--primary-color);
     border-radius: 1rem;
 }
-.btn a{
+.btn-dark a{
     color: white;
     display: block;
     padding: 1.1rem;
 }
 .btn-light{
-    margin-top: 1rem;
+    margin: 1rem .6rem;
     border-color: var(--primary-color);
     color:var(--primary-color);
     border-radius: 1rem;
@@ -133,6 +122,25 @@ li{
     display: block;
     padding: 1rem;
 }
+
+
+/* projects section and tech stack*/
+
+#about{
+   margin: 2rem 0;
+   padding: 2rem;
+}
+#about h1{
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.about-info{
+    text-align:left;
+}
+.about-tech{
+    font-weight: bold;
+}
+
 
 /*footer*/
 
@@ -156,13 +164,4 @@ li{
     color: white;
 }
 
-/*projects*/
-.btn{
-    margin-right: .5rem;
-}
-
-/*dummy*/
-.content{
-    line-height: 3rem;
-}
 
