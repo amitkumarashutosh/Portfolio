@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!-- header -->
     <header>
         <div class="container">
             <h4><a href="index.html"><i class="fa-solid fa-font fa-2xl"></i>
@@ -22,40 +24,46 @@
             </ul>
         </div>
     </header>
-    <section class="main-content">
-        <div class="info">
-            <h1>Amit Kumar Ashutosh <span id="highlight">the web developer</span></h1>
+
+
+    <!-- section  -->
+    <section>
+        <div class="section-info">
+            <div class="section-heading">
+                <h1>Amit Kumar Ashutosh <span id="highlight">the web developer</span></h1>
+            </div>
+            <img src="front-image.svg" alt="myimage">
         </div>
-        <img src="front-image.svg" alt="myimage">
+    
+        <nav class="dark-box" id="about">
+            <h1>About Me</h1>
+            <div class="about-info">
+                <p>My name is Amit Kumar Ashutosh from Patna,Bihar. I did my schooling from my hometown, currectly i am pursing B.Tech from Lovely Professional University</p>
+                <h3>Technical Skills</h3>
+                <p><span class="about-tech">Programming skills</span>  : C++, Javascript</p>
+                <p><span class="about-tech">Web Technology</span>      : Html, Css, React</p>
+                <p><span class="about-tech">Database Management</span> : MySQL</p>
+                <p><span class="about-tech">Key Course taken</span>    : DBMS, Operating System</p>
+            </div>
+        </nav>
+
+
+        <div class="light-box">
+            <h1>Projects</h1>
+            <p> Like to showcase my work and thus, you can see my projects hosted online.</p>
+            <button class="btn-dark"><a href="projects.html">See Projects</a></button>
+        </div>
+        
+        <div class="dark-box">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <button class="btn-light"><a href="blogs.html">Read Blogs</a></button>
+        </div>
     </section>
 
-    <nav class="spacing breif-info section-containe-dark">
-        <h1 class="text-cen">About Me</h1>
-        <p>My name is Amit Kumar Ashutosh from Patna,Bihar. I did my schooling from my hometown, currectly i am pursing B.Tech from Lovely Professional University</p>
-        <h3>Technical Skills</h3>
-        <p><span id="tech-stack">Programming skills</span>  : C++, Javascript</p>
-        <p><span id="tech-stack">Web Technology</span>      : Html, Css, React</p>
-        <p><span id="tech-stack">Database Management</span> : MySQL</p>
-        <p><span id="tech-stack">Key Course taken</span>    : DBMS, Operating System</p>
-    </nav>
 
-    <div class="project-info section-containe-light spacing text-cen">
-        <h1>Projects</h1>
-        <p> Like to showcase my work and thus, you can see my projects hosted online.</p>
-        <button class="btn"><a href="projects.html">See Projects</a></button>
-    </div>
-    <div class="spacing text-cen blog-info section-containe-dark">
-        <h1>Blogs</h1>
-        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
-        <button class="btn-light"><a href="blogs.html">Read Blogs</a></button>
-    </div>
-
-    <div class="spacing text-cen section-containe-light certificate-info">
-        <h1>Certification</h1>
-        <p>See my all certifications here</p>
-        <button class="btn"><a href="#">See Certificates</a></button>
-    </div>
-    <footer class="footer-info" id="footer-mv">
+    <!-- footer  -->
+    <footer class="footer-info">
         <div class="footer-container">
             <h3>Copyright &copy; 2023 amitkumarashutosh.netlify.com</h3>
             <ul>
