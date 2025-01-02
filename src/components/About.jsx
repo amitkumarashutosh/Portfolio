@@ -8,11 +8,12 @@ const About = () => {
         <article>
           <SectionTitle text="About Me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            I'm a recent B.Tech graduate in Computer Science from Lovely
-            Professional University. Coding is not just my profession; it's a
-            calling. I've utilized the MERN stack to build robust applications
-            like a dynamic blog app and a real estate management system, each
-            reflecting my focus on precision and innovation.
+            I am a B.Tech graduate in Computer Science from Lovely Professional
+            University, deeply passionate about coding and software development.
+            As a full-stack developer, I have successfully built robust
+            applications, including a dynamic blog platform and a learning
+            management system. These projects showcase my commitment to
+            precision, innovation, and delivering impactful solutions.
           </p>
         </article>
       </div>
